@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: hello-k8s
-          image: 760240387743.dkr.ecr.eu-central-1.amazonaws.com/whoami:latest
+          image: whoami:latest
           securityContext:
             privileged: false
             readOnlyRootFilesystem: true
